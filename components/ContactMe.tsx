@@ -25,7 +25,7 @@ function ContactMe({}:Props){
         <h3 className='absolute top-24 uppercase tracking-[20px] text-2xl text-[#00FF00]'>Contact</h3>
             <div className='flex flex-col space-y-10'>
                 <h4 className='text-4xl font-semibold text-center pt-10'>
-                let's keep in touch.{" "}
+                let&apos;s keep in touch.{" "}
                     <span className='decoration-[#00FF00] underline'>Waiting You.</span>
                 </h4>
 

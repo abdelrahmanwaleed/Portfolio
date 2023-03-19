@@ -41,10 +41,10 @@ const About = (props: Props) => {
       <div className="space-y-10 px-0 md:px-10 xl:w-[900px]">
         <h4 className="text-5xl font-Sono">Who Am I ?</h4>
         <p className="text-[1.5rem] font-Rubik">
-          Hi, I'm Abdelrahman or you can call me Abdo. I was born in Egypt and
+          Hi, I&apos;m Abdelrahman or you can call me Abdo. I was born in Egypt and
           lived with my family in Saudi Arabia where I had my education. After
           finishing high school I returned to Egypt where I got my Software
-          Engineer bachelor's certificate. I have worked on multiple projects
+          Engineer bachelor&apos;s certificate. I have worked on multiple projects
           during college duration and army services that required several
           skills. I like to discover new challenges and come up with the most
           creative and new solutions also love to go through new software to
