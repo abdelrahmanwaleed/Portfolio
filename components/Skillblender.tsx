@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image';
 import React from 'react'
-import blenderlogo from '../images/blenderlogo1.png'
+import blenderlogo from '../images/Blenderlogo1.png'
 
 type Props = {
     directionleft?: boolean;
