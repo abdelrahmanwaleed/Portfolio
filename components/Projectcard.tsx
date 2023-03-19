@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 interface Props {
   title: string;
   description: string;
-  imgpro: string;
+  imgpro: StaticImageData;
 }
 const Projectcard = ({ title, description, imgpro }: Props) => {
   return (

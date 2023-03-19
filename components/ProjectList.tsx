@@ -2,6 +2,8 @@ import React from "react";
 import Projectcard from "./Projectcard";
 import app1 from "../images/weatherapp.png";
 import app2 from "../images/weatherapp.png";
+import app3 from "../images/weatherapp.png";
+import app4 from "../images/weatherapp.png";
 
 const ProjectList = () => {
   const projectapps = [
@@ -22,14 +24,14 @@ const ProjectList = () => {
     {
       id: 3,
       title: "Travel Booking",
-      imgpro: "",
+      imgpro: app3,
       description:
         "Its a responsive weather app made with: React.js API use weather and geo",
     },
     {
       id: 4,
       title: "Posting Appliction",
-      imgpro: "",
+      imgpro: app4,
       description:
         "Its a responsive weather app made with: React.js API use weather and geo",
     },
