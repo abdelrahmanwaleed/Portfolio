@@ -18,26 +18,32 @@ const ProjectList = () => {
       id: 2,
       title: "To-do List Appliction",
       imgpro: app2,
-      description:
-        "Its a responsive weather app made with: React.js API use weather and geo",
+      description: "A responsive To-do website made by json-server used react",
     },
     {
       id: 3,
       title: "Travel Booking",
       imgpro: app3,
       description:
-        "Its a responsive weather app made with: React.js API use weather and geo",
+        "This my first project its just UI for Travel booking website used react and Tailwind css",
     },
     {
       id: 4,
       title: "Posting Appliction",
       imgpro: app4,
       description:
-        "Its a responsive weather app made with: React.js API use weather and geo",
+        "Posting appliction to store post, edit and delete developed by react",
+    },
+    {
+      id: 4,
+      title: "Gym Website",
+      imgpro: app4,
+      description:
+        "Used api gymexersice from Rapid Api developed by react and tailwindcss to schedule your daily routine work out",
     },
   ];
   return (
-    <div className="grid grid-cols-3 gap-10">
+    <div className="grid grid-cols-3  gap-10">
       {projectapps.map((project) => (
         <Projectcard
           title={project.title}
